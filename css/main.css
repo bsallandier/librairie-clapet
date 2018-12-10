@@ -6,7 +6,7 @@
 */
 
 body {
-  max-width: 960px;
+  max-width: 1440px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -223,7 +223,7 @@ button {
   margin-bottom: 35px;
   width: 960px;
   height: 350px;
-  background: url("../img/header-bg.jpeg");
+  background: url("../img/background.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -263,6 +263,10 @@ button {
 
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
+}
+.nav-main__list {
+display: flex;
+justify-content: center;
 }
 
 .nav-main__item {
