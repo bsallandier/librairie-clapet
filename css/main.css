@@ -115,7 +115,7 @@ button {
 }
 
 .column--50 {
-  width: 50%;
+  min-width: 50%;
 }
 
 .column--grow {
@@ -507,6 +507,15 @@ justify-content: center;
 */
 .container.decouvrez-notre-librairie {
   text-align: center;
+}
+
+/**
+* conseil-de-lecture
+*/
+
+.benoit_fait_des_flexbox {
+display: flex;
+justify-content: center;
 }
 
 /**
