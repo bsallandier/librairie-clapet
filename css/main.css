@@ -301,7 +301,7 @@ justify-content: center;
 */
 .separator1 {
   display: block;
-  margin: 50px auto;
+  margin: 60px auto;
   width: 200px;
   height: 1px;
   border: none;
@@ -311,7 +311,7 @@ justify-content: center;
 .separator1::before  {
   content:"";
   display: block;
-  margin: 50px auto;
+  margin: 60px auto;
   width: 200px;
   height: 1px;
   border: none;
@@ -324,12 +324,14 @@ justify-content: center;
 */
 
 .honey-pot-list {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .honey-pot {
+ 
   display: inline-block;
-  margin: 0 30px 35px 30px;
+  margin: auto;
   text-align: center;
 }
 
@@ -501,5 +503,7 @@ justify-content: center;
 */
 .index-title {
   text-align: center;
+  font-family: Montserrat;
+  font-size:64px;
   margin-bottom: 35px;
 }
