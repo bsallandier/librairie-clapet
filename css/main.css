@@ -224,7 +224,7 @@ button {
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 35px;
+  margin-bottom: 85px;
   width: 1440px;
   height: 350px;
   background: url("../img/background.png");
@@ -279,6 +279,7 @@ button {
 .nav-main__list {
 display: flex;
 justify-content: center;
+height:56px;
 }
 
 .nav-main__item {
@@ -591,5 +592,5 @@ margin-bottom:50px;
   text-align: center;
   font-family: Montserrat;
   font-size:64px;
-  margin-bottom: 35px;
+  margin-bottom: 80px;
 }
