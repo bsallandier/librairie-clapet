@@ -418,7 +418,7 @@ height:56px;
   margin: 0;
   font-size: 1.4em;
   line-height: 1.4;
-  font-family : Worksans;
+  font-family : "Work sans", sans-serif;
 
 }
 
@@ -489,13 +489,15 @@ display:flex
 justify-content: center;
 }
 
-.news-list_actu .news-list__news--main {
-  grid-column: span 4;
-}
-
 .news-list__news_actu {
   grid-column: span 1;
 }
+
+.new_main_4_span {
+  grid-column: span 4;
+}
+
+
 .news-list__news_2_CASES {
   grid-column: span 2;
 }
@@ -556,12 +558,12 @@ text-align: justify;
 
 .chapo_lecture {
   font-size: 2.5em;
-  font-family: "Work sans";
+  font-family: "Work sans", sans-serif;
 }
 
 .sous_texte_conseil_lecture {
-font-family: "Work sans";
-font-size: 2em;
+font-family: "Work sans", sans-serif;
+font-size: 1.7em;
 color: #1a1a1a;
 }
 
@@ -577,13 +579,20 @@ color: #1a1a1a;
   }
 
 .pied_citation {
-font-family: "Work sans";
+font-family: "Work sans", sans-serif;
 font-size:1.6em;
 text-align: right;
 color: #1a1a1a;
 margin-top:8px;
 margin-bottom:50px;
 }
+
+
+.loremipsum{
+font-family:"Work sans", sans-serif;
+margin: 0 9em;
+}
+
 
 /**
 * index
