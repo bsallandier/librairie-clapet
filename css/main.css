@@ -93,7 +93,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
+  width: 1200px;
   max-width: 100%;
 }
 
@@ -199,8 +199,9 @@ button {
   font-size: 2.5em;
   font-family: "Work sans";
   text-align: center;
-  margin-top: 85px;
 }
+
+
 
 .full-width {
   display: block;
@@ -470,6 +471,34 @@ justify-content: center;
   grid-column: span 1;
 }
 
+
+/**
+* news-list-notre-actualite
+*/
+.news-list_actu {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+}
+
+.bloc_news_secondaire_actu{
+display:flex
+justify-content: center;
+}
+
+.news-list_actu .news-list__news--main {
+  grid-column: span 4;
+}
+
+.news-list__news_actu {
+  grid-column: span 1;
+}
+.news-list__news_2_CASES {
+  grid-column: span 2;
+}
+
 /**
 * -----------
 * Trumps
@@ -515,7 +544,44 @@ justify-content: center;
 
 .benoit_fait_des_flexbox {
 display: flex;
-justify-content: center;
+justify-content: center flex-start;
+min-width:600px;
+}
+
+.texte_conseil_lecture {
+margin-left:40px;
+text-align: justify;
+}
+
+.chapo_lecture {
+  font-size: 2.5em;
+  font-family: "Work sans";
+}
+
+.sous_texte_conseil_lecture {
+font-family: "Work sans";
+font-size: 2em;
+color: #1a1a1a;
+}
+
+.citation{
+  font-size:2.4em;
+  font-weight: 200;
+  font-family: Montserrat;
+  color: #e8a27d;
+  border-left: 4px solid #d9d9d9;
+  padding:16px;
+  margin-top:50px;
+  margin-bottom:8px;
+  }
+
+.pied_citation {
+font-family: "Work sans";
+font-size:1.6em;
+text-align: right;
+color: #1a1a1a;
+margin-top:8px;
+margin-bottom:50px;
 }
 
 /**
