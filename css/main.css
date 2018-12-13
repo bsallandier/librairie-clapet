@@ -485,7 +485,7 @@ justify-content: center;
 }
 
 .bloc_news_secondaire_actu{
-display:flex
+display:flex;
 justify-content: center;
 }
 
@@ -590,6 +590,7 @@ margin-bottom:50px;
 
 .loremipsum{
 font-family:"Work sans", sans-serif;
+font-size:2em;
 margin: 0 9em;
 }
 
