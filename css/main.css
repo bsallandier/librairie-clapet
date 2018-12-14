@@ -434,7 +434,11 @@ rotate 360deg;
   font-size: 1.4em;
   line-height: 1.4;
   font-family : "Work sans", sans-serif;
+}
 
+.news-list_actu .newstext {
+font-size: 2em;
+font-family: "Work sans", sans-serif;
 }
 
 .page-list .news {
@@ -670,8 +674,10 @@ margin-bottom:50px;
 .loremipsum{
 font-family:"Work sans", sans-serif;
 font-size:2em;
+text-align: justify;
 margin: 0 9em;
 }
+
 
 .titre_intermediaire{
   font-family: "Montserrat", sans-serif;
