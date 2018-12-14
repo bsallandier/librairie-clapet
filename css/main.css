@@ -577,6 +577,10 @@ font-family: "Work Sans", sans-serif;
   grid-column: span 2;
 }
 
+.news-list__news_3_CASES {
+  grid-column: span 3;
+}
+
 /**
 * -----------
 * Trumps
@@ -632,20 +636,20 @@ text-align: justify;
 }
 
 .chapo_lecture {
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-family: "Work sans", sans-serif;
 }
 
 .sous_texte_conseil_lecture {
 font-family: "Work sans", sans-serif;
-font-size: 1.7em;
+font-size: 1.5em;
 color: #1a1a1a;
 }
 
 .citation{
   font-size:2.4em;
   font-weight: 200;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   color: #e8a27d;
   border-left: 4px solid #d9d9d9;
   padding:16px;
@@ -669,13 +673,18 @@ font-size:2em;
 margin: 0 9em;
 }
 
+.titre_intermediaire{
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+}
 
 /**
 * index
 */
 .index-title {
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size:64px;
   margin-bottom: 80px;
 }
